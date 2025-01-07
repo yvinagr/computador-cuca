@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-color: darkslategray;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color:black;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 24px;
+            color: white;
+            padding: 5px;
+        }
+    
+        .nav {
+            
+            display: flex;
+            gap: 15px;
+            overflow: hidden;
+            background-color: darkslategray;
+            overflow: hidden;
+        }
+        
+        nav a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover{
+        background-color: cadetblue;
+        transition: 0.3s;
+        }
+        
+        .logo {
+            width: 100px; /* Ajuste o tamanho conforme sua logo */
+            margin-bottom: 20px;
+            }
+
+            .content{
+           padding: 10px;
+           text-align: center;
+}
+
+        .content img{
+            width: 10px;
+            margin-bottom: 5px;
+           
+        }
+        .cart {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center; /* Centraliza os itens */
+        }
+
+        .cart-item {
+            background: #fff;
+            color: black;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: calc(33.333% - 20px); /* 3 itens por linha */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer{
+            background-color: lightslategray;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            margin-top: 600px;
+        }
+        
+        footer p{
+            margin: 5px;
+        }
+        h2{
+            color: white;
+        }
+        
+        p{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://cdn.leonardo.ai/users/6a4b60f9-3651-492c-b2d2-f964f2aa5441/generations/f67ec30b-d608-446e-8c49-0ad1b976dd38/Leonardo_Phoenix_A_logo_design_for_a_website_named_Lunar_incor_3.jpg" alt="Logo" class="logo"> 
+        <div class="logo">lunar</div>
+
+    </header>
+    <nav>
+        <a href="file:///C:/Users/LABORATORIO2/Desktop/projeto%20site/index.html">inicio</a>
+        <a href="file:///C:/Users/LABORATORIO2/Desktop/projeto%20site/produtos.html">produtos</a>
+        <a href="file:///C:/Users/LABORATORIO2/Desktop/projeto%20site/carinho.html">carinho</a>
+        <a href="file:///C:/Users/LABORATORIO2/Desktop/projeto%20site/contato1.html">contato</a>
+        
+            </nav>
+        
+            <div class="content">
+                <br><br>
+                <h2>Itens no Carrinho</h2>
+                <section class="cart">
+                    <div class="cart-item">
+                        <img src="https://via.placeholder.com/150" alt="Colar Lunar">
+                        <h2>Colar Lunar</h2>
+                        <p>R$ 89,90</p>
+                        <button>Remover</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="4.jpg" alt="Brinco Estelar">
+                        <h2>Brinco sol e lua</h2>
+                        <p>R$ 79,90</p>
+                        <button>Remover</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="https://via.placeholder.com/150" alt="Pulseira Galáxia">
+                        <h2>Pulseira Galáxia</h2>
+                        <p>R$ 49,90</p>
+                        <button>Remover</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="https://via.placeholder.com/150" alt="Anel Solar">
+                        <h2>Anel Solar</h2>
+                        <p>R$ 69,90</p>
+                        <button>Remover</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="https://via.placeholder.com/150" alt="Cinto Lunar">
+                        <h2>Cinto Lunar</h2>
+                        <p>R$ 99,90</p>
+                        <button>Remover</button>
+                    </div>
+                    <div class="cart-item">
+                        <img src="https://via.placeholder.com/150" alt="Bracelete Estelar">
+                        <h2>Bracelete Estelar</h2>
+                        <p>R$ 39,90</p>
+                        <button>Remover</button>
+                    </div>
+                </section>
+            </div>
+        
+    
+    <footer>
+        <p>&copy;2024 todos os direitos reservados.</p>
+        <p>endereço:rua exemplo.123 - cidade xxxx, BR </p>
+    </footer>
+</body>
+</html>
