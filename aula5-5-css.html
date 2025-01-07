@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{ 
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+    }
+
+    .conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+.corpo{
+display: flex;
+flex: 1
+;
+}
+    .cabecalho{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+.esquerda{
+    background-color: aqua;
+    color: black;
+    flex: 1;
+    padding: 20px;
+
+}
+
+.centro{
+background-color: blue;
+flex: 2;
+padding: 20px;
+
+}
+
+.direita{
+background-color: blueviolet;
+flex: 1;
+padding: 20px;
+margin-right: -150px;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+
+
+</head>
+<body>
+    
+<div class="conteiner">
+
+    <div class="cabecalho">conteiner cabeçalho</div>
+
+<div class="corpo">
+    <div class="esquerda">conteiner esquerda</div>
+    <div class="centro">conteiner centro</div>
+    <div class="direita">conteiner direita</div>
+   
+</div>
+
+<div class="rodape">conteiner rodapé</div>
+
+</div>
+
+</body>
+</html>

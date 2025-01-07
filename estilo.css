@@ -1,0 +1,17 @@
+body{ 
+    background-color: black;
+
+}
+
+h1
+{
+    color: blanchedalmond;
+}
+h2{
+    color: bisque;
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+}
+p{ 
+    color: blueviolet;
+}

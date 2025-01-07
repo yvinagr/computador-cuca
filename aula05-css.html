@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout example</title>
+<style>
+
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+
+header,footer{
+background-color: dimgray;
+color: white;
+text-align: center;
+padding: 50px;
+}
+
+.main-content{
+display: flex;
+flex: 1;
+}
+
+#left{
+background-color: bisque;
+flex: 1;
+padding: 20px;
+margin-right: 150px
+
+
+}
+
+#center{
+background-color: blue;
+flex: 2;
+padding: 20px;
+text-align: center;
+line-height: 150px;
+position: relative;
+top: 20px;
+left: calc(75% - 100px);
+position: relative;
+    top: 20px;
+    left: calc(50% - 150px);
+}
+
+#right{
+background-color: brown;
+flex: 1;
+padding: 100px;
+margin-right: 150px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+    <header id="header">
+        #header
+    </header>
+<div class="main-conteiner">
+<div id="left">
+    #left
+</div>
+<div id="center">
+    #center
+</div>
+<div id="right">
+    #right <br>
+    margin-right: -150px
+</div>
+<div>
+<footer id="footer">
+#footer
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+background-color: lightpink;
+}
+
+h1{
+color: hotpink;
+font-family :Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;s
+font-size: 25px ;
+
+}
+
+h2{
+font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+color  black;
+}
+
+p{
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px
+}
+
+br{
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+}
